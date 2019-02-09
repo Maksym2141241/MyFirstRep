@@ -1,0 +1,118 @@
+/* ПН-ВС не активный*/
+.sun-mon-non-activ 
+{
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    color: #A6A6A6;
+    border: 1px double rgb(255, 255, 255);
+    background-color:  rgb(211, 211, 211);
+
+}
+
+/* ЧТ Активный */
+.thursday-activ
+{
+position: absolute;
+width: 40px;
+height: 30px;
+background: #D7D4D4;
+position: absolute;
+padding: 20px;
+font-family: Montserrat;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 24px;
+color: #727272;
+border: 1px double rgb(255, 255, 255);
+background-color:  rgb(211, 211, 211);
+text-align: center;
+}
+
+/* 1-31 не активный*/
+.number-non-activ 
+{
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    color: #727272;
+    border: 1px double rgb(255, 255, 255);
+    background-color:  rgb(211, 211, 211);
+
+}
+
+/* 7 13 15 21 полуактивный*/
+.number-7-13-15-21-activ 
+{
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    color: #727272;
+    border: 1px double rgb(255, 255, 255);
+    background-color:  #BCBABA;
+
+}
+
+/* 14 активный*/
+.number-14-activ 
+{
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 1px double rgb(255, 255, 255);
+    background-color:  #727272;
+
+}
+
+/* 28-31 1-10 не активный месяц*/
+.number-non-activ-month
+{
+    position: absolute;
+    width: 40px;
+    height: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    color: #A6A6A6;
+    border: 1px double rgb(255, 255, 255);
+    background-color:  rgb(211, 211, 211);
+
+}
