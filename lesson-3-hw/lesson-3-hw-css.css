@@ -116,3 +116,22 @@ text-align: center;
     background-color:  rgb(211, 211, 211);
 
 }
+
+/* месяц*/
+.month
+{
+    position: absolute;
+    width: 520px;
+    height: 30px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    line-height: normal;
+    font-size: 24px;
+    padding: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    border: 1px double rgb(255, 255, 255);
+    background-color:  #727272;
+
+}
