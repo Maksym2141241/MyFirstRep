@@ -26,11 +26,7 @@ div
     width: 270px;
     padding: 20px 0px 0px 0px;
 }   
-
-img
-{
-    padding: 0px 0px 0px 100px;
-}   
+  
 
 #select-menu
 {
@@ -44,4 +40,8 @@ img
     height: 40px;
     width: 240px;
     padding: 10px 0px 0px 0px;
+}
+.arrow
+{
+    padding: 20px 0px 0px 100px;   
 }
