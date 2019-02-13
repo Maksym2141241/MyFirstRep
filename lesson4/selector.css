@@ -1,0 +1,126 @@
+.wrapper::before /*Псевдоселектор добавляет контент в начале тега*/
+{
+content: 'Меню'; /*Обязательный параметр*/
+}
+.wrapper::after
+{
+}
+ul li:first-child /*Псевдоселектор - выбирает 1 элемент из детей тега*/
+{
+color: red;
+}
+ul li:last-child /*Псевдоселектор - выбирает последений элемент из детей тега*/
+{
+color: aqua;
+}
+
+ul li:nth-child(6) /*  Функция в которую передается целое значение, либо выражение*/
+{
+    color: brown;
+}
+ul li:nth-child(odd) /*  нечетные*/
+{
+    color: blue
+}
+ul li:nth-child(even) /*  четные*/
+{
+    color: brown;
+}
+ul li:nth-child(5n) /*  каждый пятый*/
+{
+    color: tomato;
+}
+ul li:nth-child(5n+1) /*  каждый пятый и +1 */
+{
+    color: tomato;
+}
+ul li:nth-child(5n+1) /*  каждый пятый и +1 */
+{
+    color: tomato;
+}
+.descr, .descr2 {
+    font-size: 20px;
+    color: red;
+}
+.descr {
+text-decoration: underline; /* Подчеркивание*/
+}
+.button {
+    border: 3px solid rgb(255, 73, 73);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 6px;
+    background: red;
+    color: white;
+}
+html
+{   font-family: Montserrat, Arial; /* Шрифт и жирность 100-900*/
+    font-weight: 500;
+}
+.button:hover
+{
+opacity: 0.7; /*Прозрачность кнопки*/
+}
+.button:active{ /*При нажатии*/
+background-color: blanchedalmond;
+color: red;
+}
+.button::first-letter{
+font-size: 20px;
+font-weight: 700; /*жирность*/
+}
+.button:focus
+{
+    color: black;
+}
+.wrapper:focus-within /*Приминение к всему тегу, при нажатии кнопки*/
+{
+
+}
+.button:last-of-type
+{
+background: rgba(136, 0, 136, .7);
+}
+.button:first-of-type
+{
+padding: 0 30px;
+line-height: 80px;
+vertical-align: middle;
+}
+a.button:first-of-type::first-letter
+{
+    font-size: inherit;
+}
+
+
+ul, li {
+line-height: 30px;
+}
+.box {
+    padding: 30px!important;
+}
+#box {
+    padding: 15px;
+}
+/*Приоритетность селекторов
+* 0
+li 1
+li:first-leter 2
+ul li 2
+.class 10
+ul li.class - 12
+li.class.class - 21
+#box 100
+*/
+.possition {
+position: absolute;
+top: 0;
+right: 0;
+}
+.pos-wrap
+{
+height: 100px;
+width: 100 px;
+}
+position: relative;
