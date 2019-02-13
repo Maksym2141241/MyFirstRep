@@ -1,0 +1,109 @@
+.gorizont{
+    position: absolute;
+    top: 555px;
+    right: 800px;
+    }
+.grass{
+    top: 720px;
+    right: 770px;
+    position: absolute;
+}
+.grass2{
+    top: 720px;
+    right: 730px;
+    position: absolute;
+}
+.grass3{
+    top: 720px;
+    right: 685px;
+    position: absolute;
+}
+.grass4{
+    top: 720px;
+    right: 640px;
+    position: absolute;
+}
+.grass5{
+    top: 720px;
+    right: 593px;
+    position: absolute;
+}
+.grass6{
+    top: 720px;
+    right: 975px;
+    position: absolute;
+}
+.grass7{
+    top: 720px;
+    right: 1022px;
+    position: absolute;
+}
+.grass8{
+    top: 720px;
+    right: 1069px;
+    position: absolute;
+}
+.grass9{
+    top: 720px;
+    right: 1116px;
+    position: absolute;
+}
+.grass10{
+    top: 720px;
+    right: 1163px;
+    position: absolute;
+}
+.sun{
+    top: 350px;
+    right: 500px;
+    position: absolute;
+}
+.tree1{
+    top: 532px;
+    right: 460px;
+    position: absolute;
+}
+.clouds{
+    top: 360px;
+    right: 700px;
+    position: absolute;
+}
+.clouds2{
+    top: 400px;
+    right: 1000px;
+    position: absolute;
+}
+.family{
+    position: absolute;
+    top: 660px;
+    right: 660px;
+    }
+.plants{
+    position: absolute;
+    top: 720px;
+    right: 610px;
+    }
+.bee{
+    position: absolute;
+    top: 705px;
+    right: 610px;
+    }       
+.forest{
+        position: absolute;
+        top: 530px;
+        right: 900px;
+        }  
+.pork{
+            position: absolute;
+            top: 700px;
+            right: 1000px;
+            }  
+ .cow{
+            position: absolute;
+            top: 675px;
+            right: 1100px;
+            }            
+.chicken{
+ position: absolute;
+  top: 710px;
+ right: 755px;}
