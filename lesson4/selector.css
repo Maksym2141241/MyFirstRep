@@ -1,9 +1,14 @@
 .wrapper::before /*Псевдоселектор добавляет контент в начале тега*/
 {
-content: 'Меню'; /*Обязательный параметр*/
+    content: url(logo3.png); 
+    padding: 10px 30px;
+
+ /*Обязательный параметр*/
 }
 .wrapper::after
 {
+    content: 'Menu'; 
+    padding: 10px;
 }
 ul li:first-child /*Псевдоселектор - выбирает 1 элемент из детей тега*/
 {
@@ -50,15 +55,16 @@ text-decoration: underline; /* Подчеркивание*/
     text-decoration: none;
     display: inline-block;
     padding: 10px 30px;
-    border-radius: 6px;
+    border-radius: 61px;
     background: red;
     color: white;
+    text-transform: uppercase;
 }
 html
 {   font-family: Montserrat, Arial; /* Шрифт и жирность 100-900*/
     font-weight: 500;
 }
-.button:hover
+.button:hover /*При наведении*/
 {
 opacity: 0.7; /*Прозрачность кнопки*/
 }
@@ -66,27 +72,41 @@ opacity: 0.7; /*Прозрачность кнопки*/
 background-color: blanchedalmond;
 color: red;
 }
-.button::first-letter{
+/*.button::first-letter{
 font-size: 20px;
 font-weight: 700; /*жирность*/
-}
-.button:focus
+}*/
+
+.button:focus /*После нажатия*/
 {
     color: black;
 }
 .wrapper:focus-within /*Приминение к всему тегу, при нажатии кнопки*/
 {
-
+color: blue;
+background: burlywood;
 }
 .button:last-of-type
 {
-background: rgba(136, 0, 136, .7);
+    border: 3px solid rgb(5, 5, 5);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 61px;
+    background: rgb(217, 255, 0);
+    color: black;
+    text-transform: uppercase;
 }
 .button:first-of-type
 {
-padding: 0 30px;
-line-height: 80px;
-vertical-align: middle;
+    border: 3px solid rgb(255, 73, 73);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 30px;
+    border-radius: 61px;
+    background: rgb(255, 255, 255);
+    color: red;
+    text-transform: uppercase;
 }
 a.button:first-of-type::first-letter
 {
@@ -122,5 +142,9 @@ right: 0;
 {
 height: 100px;
 width: 100 px;
-}
 position: relative;
+}
+.menu {
+    border: 1px solid red;
+    background: black;
+}
