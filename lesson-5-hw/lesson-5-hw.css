@@ -1,0 +1,161 @@
+body
+{
+    font-family: Montserrat, Arial;
+    background: url(fon.jpg);
+    width: 1024px;
+}
+.header
+{
+    display: block;
+}
+.clearfix
+{
+    display: block;
+    clear: both;
+}
+.menu
+{
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: 375px;
+    top: 25px;
+    position: absolute;
+}
+.buttom
+{
+    margin-right: 20px;
+    padding: 5px 10px 5px 10px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    background: white;
+    color: black;
+    font-weight: 600;
+}
+.buttom-call
+{
+    margin-right: 20px;
+    padding: 5px 10px 5px 10px;
+    text-transform: uppercase;
+    background: yellow;
+    color: black;
+    font-weight: 600;
+    border: 1px solid black;
+
+}
+.buttom:hover
+{
+    background: blue;
+    color: white;
+}
+.buttom:active
+{
+    background: white;
+    color: black;
+}
+.buttom-call:hover
+{
+    background: white;
+    color: black;
+}
+.buttom-call:active
+{
+    background: blue;
+    color: white;
+}
+.left-menu
+{
+    display: inline-block;
+    width: 300px;
+    height: 630px;
+    background:rgb(198, 198, 255);
+    margin-top: 50px;
+    opacity: 1;
+}
+.content
+{
+    max-width: 650px;
+    display: inline-block;
+    margin-left: 50px;
+    margin-bottom: 70px;
+    text-indent: 30px;
+    line-height: 1.5;
+    text-align: justify;
+
+}
+.center
+{
+    display: block;
+    position: absolute;
+}
+.site
+{
+    display: block;
+    position: relative;
+    width: 1024px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.title
+{
+    text-align: center;
+}
+.footer
+{
+    width: 1024px;
+    height: 200px;
+    display: block;
+    background: blue;
+    position: absolute;
+    opacity: 0.5;
+}
+.img
+{
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.left-menu-top
+{
+margin: 50px 0px 0px 70px;
+}
+.arrow-left
+{
+width: 10px;
+margin-right: 5px;
+}
+.arrow-right
+{
+width: 10px;
+margin-left: 7px;
+}
+.buttom-2
+{
+    margin-right: 20px;
+    padding: 5px 10px 5px 10px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    background: yellow;
+    color: black;
+    font-weight: 600;
+}
+.left-menu-button
+{
+    margin: 30px 0px 45px 100px;
+}
+.buttom-2:hover
+{
+    background: blue;
+    color: white;
+}
+.buttom-2:active
+{
+    background: white;
+    color: black;
+}
+.copyright
+{
+    color: white;
+    padding-left: 500px;
+    padding-top: 150px;
+    
+}
