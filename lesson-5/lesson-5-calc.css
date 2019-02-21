@@ -1,3 +1,25 @@
+@font-face {
+    font-family: 'novel_sans_prolight';
+    src: url('fonts/novelsanspro_light-webfont.woff2') format('woff2'),
+         url('fonts/novelsanspro_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'sucrose_bold_two_hqregular';
+    src: url('fonts/14620-webfont.woff2') format('woff2'),
+         url('fonts/14620-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+}
 .clearfix
 {
     display: block;
@@ -6,8 +28,8 @@
 }
 body
 {
-    font-family: Montserrat;
-    font-weight: 500;
+    font-weight: 100;
+    font-family: 'novel_sans_prolight';
 }
 .vertical
 {
@@ -112,4 +134,22 @@ background: rgb(255, 255, 255);
 .repeating{
     height: 200px;
     background: repeating-linear-gradient(45deg,white, #595 10px, rgb(85, 17, 57) 10px, #151 20px);
+}
+.radial{
+    border-radius: 15px;
+    height: 100px;
+    background: repeating-radial-gradient(circle,#595, #595 10px, rgb(85, 17, 57) 10px, rgb(85, 17, 57) 20px);
+}
+.border-image
+{
+    height: 200px;
+    width: 400px;
+    border: 1px solid pink;
+    outline: 1px dashed grey;
+    outline-offset: 5px;
+    box-shadow: 10px 10px 23px 0px rgba(50, 50, 50, 0.5);
+}
+.border-image span{
+    color: orange;
+    text-shadow: 2px 2px 3px red;
 }

@@ -1,0 +1,36 @@
+body {
+font-family: Montserrat, Arial, Helvetica, sans-serif;
+}
+
+
+table{
+	border: 2px solid #000;
+	border-collapse: collapse;
+	padding: 10px;
+}
+td{
+	border: 1px solid #000;
+	padding: 15px;
+	background: rgb(216, 216, 216);
+}
+.text-center
+{
+	text-align: center;
+}
+.no-border-right
+{
+	border-right-color: transparent;
+}
+td:hover
+{
+background: black;
+color: white;
+}
+.no-border-top
+{
+	border-top-color: transparent;
+}
+.no-border-bottom
+{
+	border-bottom-color: transparent;
+}
