@@ -1,0 +1,41 @@
+body
+{
+    font-family: Montserrat;
+    font-weight: 500;
+    font-size: 30px;
+}
+.t1
+{
+    border: 1px solid black;
+    width: 100%;
+    border-collapse: collapse;
+    color: white;
+    background: black;
+    text-align: center;
+}
+.t1 td
+{
+border: 1px solid red;
+}
+
+.t1 tr td:first-child
+{
+    background: rgb(252, 139, 139);
+}
+.t1 tr td:nth-child(2)
+{
+    background: green;
+}
+.t1 tr td.razbros
+{
+    background: orange;
+}
+.t1 caption
+{
+    background: gray;
+}
+td:hover
+{
+    background: white;
+    color: black;
+}
