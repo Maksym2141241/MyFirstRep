@@ -1,0 +1,37 @@
+.contanier
+{
+    max-width: 1260px;
+    padding: 0 auto;
+    position: block;
+    float: left;
+}
+.header-top
+{
+    float: left;
+    width: 100%;
+    display: inline-block;
+}
+.header-logo
+{
+    float: left;
+    width: 25%;
+    display: inline-block;
+}
+.header-address
+{
+    float: left;
+    width: 25%;
+    display: inline-block;
+}
+.header-contact
+{
+    float: left;
+    width: 25%;
+    display: inline-block;
+}
+.header-price
+{
+    float: right;
+    width: 25%;
+    display: inline-block;
+}
