@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--
+        accept-charset - принимает кодировку
+        action - ссылка на обработчик формы на сервере
+        autocomplete - автодополнение введенных данных
+        enctype - формат отправки данных
+        method - POST - метод отправки данных
+        novalidate - проверяет поля или нет?
+    -->
+    <form action="mailto:google@gmail.com" autocomplete="on" method="POST" name="registration" novalidate> 
+        <input type="text">
+        <fieldset disabled name="contact">
+            <legend> Контактная информация:</legend>
+            <input type="text">
+            <input type="text">
+            <input type="text">
+        </fieldset>
+        <!--
+            Input
+                accept - принимается только типом file и передается тип принимаемых файлов .doc. jpg. audio
+                autofocus - берет фокус при загрузке
+                disable - делает поле не активным
+                formaction - переопределяет действие формы
+                placeholder - подсказка ввода 
+                size - принимают типы text search tel url email password
+        -->
+        <input type="file" accept=".jpg" multiple>
+        <br>
+        <input type="image" src="scroll.png" alt="scroll" height="33px" width="33px">
+        <br>
+        <input type="text" pattern="[a-b]{3}" placeholder="Имя" required size="30">
+        <br>
+        <input type="checkbox" checked>
+        <br>
+        <input type="radio">
+        <br>
+        <input type="submit" formaction="/send.php" formenctype="" formmethod="POST" formnovalidate>
+        <br>
+        <input type="number" min="0" max="222222" step="10">
+        <br>
+        <input type="email" placeholder="E-MAIL" value="test@test.ru" readonly>
+        <br>
+        <input type="password">
+        <br>
+        <input type="button" value="КНОПКА">
+        <br>
+        <input type="color">
+        <br>
+        <input type="date">
+
+
+
+
+    </form>
+</body>
+</html>

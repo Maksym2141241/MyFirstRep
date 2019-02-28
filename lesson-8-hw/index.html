@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="http://nickblack.pro/send.php" autocomplete="on" method="POST" name="form"> 
+        <fieldset name="contact">
+                <legend> Контактная информация:</legend>
+                <label>Имя:    <input type="text" required placeholder="Введите ваше имя" name="fname" autofocus></label> 
+                <br><br>
+                <label>Фамилия: <input type="text" placeholder="Введите вашу фамилию" name="sname"></label> <br><br>
+                <label>Возраст: <input type="number" min="0" max="100"  name="age"></label>
+                <br><br>
+                <label>Почта: <input type="text" placeholder="Введите вашу почту" name="mail"> </label>
+                <br><br>
+                <label>Дата рождения: <input type="email" placeholder="Введите дату рождения" name="mail"> </label>
+                <br><br>
+                <label>Телефон: <input type="tel" required placeholder="Введите ваш номер" name="phone"> </label>
+                <br><br>
+                <label>E-mail: <input type="text" placeholder="Введите ваш e-mail" name="mymail" value="nerro2008@gmail.com" readonly> </label>
+                <br><br>
+                <input type="submit" value="Отослать">
+
+
+
+        </fieldset>
+    </form>
+</body>
+</html>
