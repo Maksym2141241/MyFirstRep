@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>YouChem</title>
+    <meta name="description" content="Офіційна сторінка компанії YouChem">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="youchem.css">
 </head>
@@ -13,35 +14,35 @@
     <header>
         <div class="container">
             <div class="header-top">
-                <div class="header-logo">
+                <div class="header-logo float-l">
                     <a href="/"><img src="img/logo.png"></a>
                 </div>
-                <div class="header-address">
+                <address class="header-address float-l pos-rel">
                     м. Київ<br>ул. Сагайдачного 18
-                </div>
-                <div class="header-contact">
-                    <div class="header-contact-tel">
+                </address>
+                <div class="header-contact float-l">
+                    <div class="header-contact-tel pos-rel">
                         <a href="tel:+380987545533">(098)<b>754-55-33</b></a>
                     </div>
-                    <div class="header-contact-mail">
+                    <div class="header-contact-mail pos-rel">
                         <a href="mailto:umbrelladiana@gmail.com">umbrelladiana@gmail.com</a>
                     </div>
                 </div>
-                <div class="header-price">
+                <div class="header-price float-l">
                     <a href="#">Отримати прайс</a>
                 </div>
             </div>
             <div class="header-bottom">
-                <div class="header-bottom-menu">
+                <nav class="header-bottom-menu float-l">
                     <ul>
-                        <li><a href="#">Головна</a></li>
+                        <li class="active"><a href="#">Головна</a></li>
                         <li><a href="#">Про нас</a></li>
                         <li><a href="#">Наша продукція</a></li>
                         <li><a href="#">Новини</a></li>
                         <li><a href="#">Контакти</a></li>
                     </ul>
-                </div>
-                <div class="header-bottom-search">
+                </nav>
+                <div class="header-bottom-search float-r">
                     <form>
                         <input type="search" placeholder="Пошук">
                         <input type="submit" value="">
@@ -49,8 +50,8 @@
                 </div>
             </div>
         </div>
-        </header>
-        <div class="main">
+    </header>
+        <main>
         <div class="container">
             <div class="main-slider" id="home-slider">
                 <a href="#">
@@ -69,8 +70,8 @@
                 </a>
             </div>
        
-        <div class="main-prosuct">
-        <div class="main-prosuct-title">Наша продукція</div>
+        <section class="main-prosuct">
+        <h2 class="main-prosuct-title">Наша продукція</h2>
         <ul class="main-prosuct-list">
             <li>
                 <div class="main-product-item-image">
@@ -102,31 +103,31 @@
                 </li>     
             
             </ul>
-            </div>
+        </section>
         </div>
-    </div>
-            <footer>
-            <div class="container">
+    </main>
+    <footer>
+        <div class="container">
             <div class="footer-info">
                 <a href="#"><img src="img/logo-2.png"></a>
                 <div class="footer-info-text">Український виробник різноманітних хімічних товарів і реагентів спеціального застосування. Товари виготовляються за власними рецептурами виробника, 
                 за рецептурами замовника та у форматі White Label. </div>
             </div>
-            <div class="footer-menu">
-                <div class="footer-menu-title">
+            <section class="footer-menu">
+                <h3 class="footer-menu-title">
                     Меню
-                </div>
+                </h3>
                 <ul class="footer-menu-list">
                     <li><a href="#">Про нас</a></li>
                     <li><a href="#">Наша продукція</a></li>
                     <li><a href="#">Новини</a></li>
                     <li><a href="#">Контакти</a></li>
                 </ul>
-            </div>
-            <div class="footer-news">
-                <div class="footer-menu-title">
+            </section>
+            <section class="footer-news">
+                <h3 class="footer-menu-title">
                     Новини
-                </div>
+                </h3>
                 <ul class="footer-news-list">
                     <li>
                         <div class="footer-news-item-image"><a href="#"><img src="img/stock-photo-aerial-view-white-oil-tank-storage-of-oil-and-petrochemical-products-ready-for-logistic-and-717264916.jpg"></a></div>
@@ -138,30 +139,28 @@
                         <div class="footer-news-item-image"><a href="#"><img src="img/stock-photo-aerial-view-white-oil-tank-storage-of-oil-and-petrochemical-products-ready-for-logistic-and-717264916.jpg"></a></div>
                         <div class="news-item-name"> <a href="#">Виробник у форматі White Label
                         </a></div>
-                        <div class="news-item-name">20.07.18</div>
+                        <date class="news-item-name">20.07.18</date>
                         </li>                   
                 </ul>
 
-            </div>
-            <div class="footer-contacts">
-                <div class="footer-menu-title">
+            </section>
+            <section class="footer-contacts">
+                <h3 class="footer-menu-title">
                     Контакти
-                </div>
+                </h3>
                 <div class="footer-contacts-address">м.Київ
                     <br> вул.Сагайдачного 18
                 </div>
-                <div class="footer-contacts-phone"><a href="tel:+380987545533" >(098)<b>754-55-33</b></a>
-                </div>
-                </div>
+                <address class="footer-contacts-phone"><a href="tel:+380987545533" >(098)<b>754-55-33</b></a>
+                </address>
                 <div class="footer-contacts-email"><a href="mailto:">umbrelladiana@gmail.com</a>
                 </div>
                 <div class="footer-contacts-shed">
                         Пн.-Пт.: з 10.00 - 18.00
                         <br>Суб. - Нд. : вихідний
                 </div>
-            </div>
+            </section>
         </div>
-    </div>
     </footer>
 
     

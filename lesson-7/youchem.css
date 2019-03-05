@@ -20,4 +20,198 @@ ul
     padding: 0 10px;
     margin: 0 auto;
 }
+/* ------Функциональные классы------ */
+.float-l
+{
+    float: left;
+}
+.float-r
+{
+    float: right;
+}
+.pos-rel
+{
+    position: relative;
+}
+
+
+
 /* ------Header------ */
+
+.header-logo
+{
+    width: 390px;
+}
+.header-address
+{
+    width: 310px;
+    padding-left: 30px;
+    margin-top: 24px;
+    box-sizing: border-box;
+}
+.header-address::after
+{
+content: '';
+width: 20px;
+height: 25px;
+background: url(./img/map-marker-alt.png) no-repeat center center;
+position: absolute;
+left: 0;
+top: 0;
+
+}
+.header-contact
+{
+    width: 335px;
+    margin-top: 24px;
+
+}
+.header-contact-tel
+{
+    padding-left: 35px;
+}
+.header-contact-tel a
+{
+    text-decoration: none;
+    color: #44464f;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 22px;
+
+
+}
+
+.header-contact-tel::after
+{
+    content: '';
+    width: 20px;
+    height: 19px;
+    background: url(./img/phone.png) no-repeat center center;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -9.5px;
+
+}
+.header-contact-mail
+{
+    margin-top: 17px;
+    padding-left: 35px;
+
+}
+.header-contact-mail a
+{
+    font-size: 16px;
+}
+.header-contact-mail::after
+{
+    content: '';
+    width: 20px;
+    height: 15px;
+    background: url(./img/envelope.png) no-repeat center center;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -7.5px;
+}
+.header-price
+{
+    width: 225px;
+}
+.header-top
+{
+    padding: 15px 0;
+}
+.header-top::after
+{
+    content: '';
+    display: block;
+    clear: both;
+}
+.header-price
+{
+    width: 225px;
+    margin-top: 24px;
+
+
+}
+.header-price a
+{
+    height: 55px;
+    color: white;
+    border-radius: 3px;
+    background: #86c043 url(./img/file-download.png) no-repeat 36px center;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    box-sizing: border-box;
+    line-height: 55px;
+    padding-left: 35px;
+}
+.header-bottom
+{
+border-top: 1px solid #cbcccd;
+}
+.header-bottom::after
+{
+    content: '';
+    clear: both;
+    display: block;
+}
+.header-bottom-menu ul li
+{
+    height: 69px;
+    line-height: 69px;
+    min-width: 160px;
+    text-align: center;
+    padding: 0 25px;
+    float: left;
+    box-sizing: border-box;
+}
+.header-bottom-menu ul li a
+{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #44464f;
+}
+.header-bottom-menu ul li.active
+{
+    background: #ffd307 url(./img/home.png) no-repeat 15px center;
+    padding-left: 40px;
+    border-bottom: 1px solid #ffd307;
+    position: relative;
+    top: -1px;
+}
+.header-bottom-search
+{
+    padding: 7px 0 7px;
+}
+.header-bottom-search form::after
+{
+    content: '';
+    display: block;
+    clear: both;
+}
+.header-bottom-search input[type="search"]
+{
+    height: 52px;
+    width: 293px;
+    background: #f1f2f4;
+    border-radius: 3px 0 0 3px;
+    box-shadow: none;
+    border: 0;
+    padding-left: 20px;
+    display: block;
+    float: left;
+}
+.header-bottom-search input[type="submit"]
+{
+    width: 58px;
+    height: 52px;
+    background: #ffd307 url(./img/search.png) no-repeat center center;
+    border: 0;
+    border-radius: 0 3px 0 3px;
+    cursor: pointer;
+}
+
+
