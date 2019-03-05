@@ -17,7 +17,7 @@
         novalidate - проверяет поля или нет?
     -->
     <form action="mailto:google@gmail.com" autocomplete="on" method="POST" name="registration" novalidate> 
-        <input type="text">
+        <input type="text" id="aaa2">
         <fieldset disabled name="contact">
             <legend> Контактная информация:</legend>
             <input type="text">
@@ -54,12 +54,80 @@
         <input type="button" value="КНОПКА">
         <br>
         <input type="color">
-        <br>
+        <br><br>
         <input type="date">
-
-
-
-
-    </form>
+        <br><br>
+        <input type="datetime-local">
+        <br><br>
+        <input type="email" hidden> <!-- hidden скрывает поле -->
+        <br><br>
+        <input type="month">
+        <br><br>
+        <input type="range" max="3" min="1">
+        <br><br>
+        <input type="reset">
+        <br><br>
+        <input type="search">
+        <br><br>
+        <input type="time">
+        <br><br>
+        <input type="url">
+        <br><br>
+        <input type="week" value="">
+        <br><br>
+        <textarea rows="10" cols="100" form="aaa2" maxlength="10" placeholder="Введите Ваш комментарий" wrap="hard"></textarea>
+        <!-- wrap hard - отправляет значение точ в точ как введено, обязательным условием является значение cols-->
+ 
+        <br>
+        <select autofocus multiple name="brand" size="8"><!--disabled form -->
+            <optgroup label="Марки 1">
+                <option disabled>Apple</option>
+                <option>Samsung</option>
+                <option label="L">LG</option>
+            </optgroup>
+            <optgroup disabled label="Марки 2">
+                <option value="334455">Apple</option>
+                <option>Samsung</option>
+                <option>LG</option>
+            </optgroup>
+        </select><br><br><br>
+        <label for="text2">Имя текста
+        <input type="text" id="text2"></input>
+        <br>
+        <label>
+            Имя текста
+            <input type="text">
+        </label>
+        <br>
+        <!--autofocus disabled form formaction  formenctype type="submit reset button"-->
+        <button type="submit">Text</button>
+        <br>
+        <lable>
+            Чекбокс
+            <input type="checkbox" name="check">
+        </lable>
+        <lable>
+            Чекбокс
+            <input type="checkbox" name="check">
+        </lable>
+        <lable>
+            Чекбокс
+        <input type="checkbox" name="check" value="">
+        </lable>                  
+        <br>
+        <lable>
+            Чекбокс
+            <input type="radio" name="rad">
+        </lable>
+        <lable>
+            Чекбокс
+            <input type="radio" name="rad">
+        </lable>
+        <lable>
+            Чекбокс
+            <input type="radio" name="rad">
+        </lable>       
+</form>
+<br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br>
 </body>
 </html>

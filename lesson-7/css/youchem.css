@@ -4,20 +4,5 @@ html
 {
     font-family: Roboto, sans-serif;
 }
-a
-{
-    color: #86c043;
-}
-ul
-{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.container
-{
-    max-width: 1280px;
-    padding: 0 10px;
-    margin: 0 auto;
-}
+
 /* ------Header------ */
