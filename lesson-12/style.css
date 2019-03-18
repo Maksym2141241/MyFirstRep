@@ -1,0 +1,21 @@
+.icon
+{
+    width: 200px;
+    height: 200px;
+    background: red;
+
+    /*transition-property: color;*/
+    transition-duration: 1.5s;
+    transition-timing-function: ease;
+    transition-delay: 0.1s;
+
+}
+.icon:hover
+{
+    background: black;
+    color: red;
+
+    -webkit-translate: translateX(20px);
+    translate: translateX(20px);
+
+}
