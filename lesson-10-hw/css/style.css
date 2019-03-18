@@ -351,18 +351,21 @@ main
 
 /*------------------------NEWS-------------------*/
 .news-container{
-    width: 1170px;
+    max-width: 1171px;
     margin: 0 auto;
-    max-height: 846px;
+    max-height: 100%;
     position: relative;
+
+
 }
-.news-container h2{
+.news-title{
     font-size: 42px;
     font-weight: 300;
     margin-top: 150px;
     text-align: center;
+    margin-bottom: 75px;
 }
-.news-date:after{
+.news-date:after, far fa-calendar-alt{
     width: 13px;
     height: 14px;
     content: '';
@@ -383,12 +386,12 @@ main
     background: #f32121;
     border-radius: 20px;
     margin: 0;
+    bottom: 0;
     position: relative;
     font-size: 13px;
     text-align: center;
     box-shadow: 2px 3.464px 24px 0px rgba(243, 33, 33, 0.64);
     line-height: 41px;
-    margin-top: 15px;
 }
 .news-buttom a {
     text-transform: none;
@@ -402,4 +405,42 @@ main
     font-size: 18px;
     font-weight: 600;   
 }
+.news-1, .news-img-2, .news-2-3{
+    float: left;
+}
+.news-2, .news-3{
+    position: relative;
+    max-width: 571px;
+    max-height: 245px;
+    margin-left: 30px;
+}
+.header-article-2{
+    display: inline-block;
+}
+.news-text{
+    font-size: 13px; 
+    line-height: 1.385;
+}
 
+.news-buttom{
+    display: inline-block;
+}
+.clear{
+    clear: both;
+}
+.news-3{
+    padding-top: 30px;
+}
+.news-img-2{
+    padding-right: 30px;
+}
+div.news-3 div.news-buttom{
+    margin-top: 20px;
+}
+div.news-2 div.news-buttom{
+    margin-top: 3px;
+}
+div.news-1 div.news-buttom{
+    margin-top: 23px;
+}
+  
