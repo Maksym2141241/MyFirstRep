@@ -353,9 +353,8 @@ main
 .news-container{
     width: 1170px;
     margin: 0 auto;
-    position: relative;
     max-height: 846px;
-
+    position: relative;
 }
 .news-container h2{
     font-size: 42px;
@@ -403,41 +402,4 @@ main
     font-size: 18px;
     font-weight: 600;   
 }
-.news-1{
-    float: left;
-    display: block;
-    max-width: 570px;
-    position: relative;
 
-}
-.new-2{
-    position: relative;
-    float: left;
-    max-width: 549px;
-
-}
-.new-3{
-    position: relative;
-    float: left;
-    max-width: 549px;
-}
-.news-2-3{
-    float: left;
-    display: block;
-    max-width: 570px;
-    position: relative;
-    margin-left: 30px;
-}
-.news-img{
-
-}
-.news-buttom{
-    float: left;
-    display: inline-block;
-
-}
-.header-article-2{
-    display: inline-block;
-    float: left;
-
-}
