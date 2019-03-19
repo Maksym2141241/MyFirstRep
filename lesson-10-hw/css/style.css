@@ -366,19 +366,11 @@ main
     text-align: center;
     margin-bottom: 75px;
 }
-.news-date:after, far fa-calendar-alt{
-    width: 13px;
-    height: 14px;
-    content: '';
-    background: url(/MyFirstRep/lesson-10-hw/img/calendar.png) no-repeat center center;
-    position: absolute;
-    left: 0;
-}
+
 .news-date{
-    margin-left: 19px;
-    line-height: 14px;
     font-size: 13px;
-    margin-top: 18px;
+    margin: 15px 0 15px 0;
+    vertical-align: middle;
 }
 
 .news-buttom{
@@ -434,6 +426,7 @@ main
 }
 .news-img-2{
     padding-right: 30px;
+    display: block;
 }
 div.news-3 div.news-buttom{
     margin-top: 20px;
@@ -444,4 +437,7 @@ div.news-2 div.news-buttom{
 div.news-1 div.news-buttom{
     margin-top: 23px;
 }
-  
+.news-date img{
+    padding-right: 7px;
+    vertical-align: top;
+} 
