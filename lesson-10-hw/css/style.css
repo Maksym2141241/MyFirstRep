@@ -8,6 +8,7 @@ html
 }
 a{
     text-decoration: none;
+    color: white;
 }
 .clear
 {
@@ -17,20 +18,15 @@ a{
 {
     max-width: 1170px;
     margin: 0 auto;
-    padding: 0 10px;
     position: relative;
+    overflow: hidden;
 }
-header
-{
-    height: 90px;
-    display: block;
-    align-items: center;
-}
+
 .logo
 {
     float: left;
     width: 300px;
-    padding: 15px 0;
+    margin: 15px 0;
 
 }
 nav
@@ -105,7 +101,6 @@ div.telephone a
     text-transform: none;
     font-size: 22px;
     font-weight: 700;
-    widows: 198px;
 }
 .schedule
 {
@@ -119,32 +114,35 @@ div.telephone a
 {
     max-width: 1170px;
     margin: 0 auto;
-    padding-top: 50px;
     background: #282828;
 }
 .logo-footer
 {
     float: left;
+    margin: 50px 0;
 }
 .social-resources-footer
 {
     display: inline-block;
     text-align: center;
-    padding-top: 20px;
-    padding-bottom: 50px;
+    margin: 50px 0;
+
 
 }
 .telephone-footer
 {
     float: right;
+    margin: 50px 0;
+
 
 }
 .contacts-footer
 {
     display: inline-block;
-    margin-left: 262px;
     text-align: center;
     font-size: 15px;
+    margin: 50px 0 50px 262px;
+
 }
 footer
 {
@@ -152,7 +150,7 @@ footer
 }
 .contacts-footer-time
 {
-    margin-top: 14px;
+    margin-top: 10px;
 }
 div.telephone-footer a
 {
@@ -355,9 +353,6 @@ main
     margin: 0 auto;
     max-height: 100%;
     position: relative;
-    height: 875px;
-
-
 }
 .news-title{
     font-size: 42px;
@@ -370,7 +365,8 @@ main
 .news-date{
     font-size: 13px;
     margin: 15px 0 15px 0;
-    vertical-align: middle;
+    position: relative;
+    line-height: 14px;
 }
 
 .news-buttom{
@@ -385,59 +381,77 @@ main
     text-align: center;
     box-shadow: 2px 3.464px 24px 0px rgba(243, 33, 33, 0.64);
     line-height: 41px;
+    display: inline-block;
 }
 .news-buttom a {
     text-transform: none;
     text-decoration: none;
     color: white;
 }
-.header-article a, .header-article-2 a{
+.header-article a{
     text-transform: none;
     text-decoration: none;
     color: white;
     font-size: 18px;
     font-weight: 600;   
 }
-.news-1, .news-img-2, .news-2-3{
-    float: left;
-}
-.news-2, .news-3{
-    position: relative;
-    max-width: 571px;
-    max-height: 245px;
-    margin-left: 30px;
-}
-.header-article-2{
-    display: inline-block;
-}
+
 .news-text{
     font-size: 13px; 
     line-height: 1.385;
 }
 
-.news-buttom{
-    display: inline-block;
-}
 .clear{
     clear: both;
 }
-.news-3{
-    padding-top: 30px;
+
+.news-container{
+    position: relative;
+    margin: 0 auto;
+    padding: 0 5px;
+    z-index: 2;
+    height: 100%;
 }
-.news-img-2{
-    padding-right: 30px;
+.news-text{
+    height: 100px;
+    overflow: hidden;
+}
+ul.news{
+    margin: 0;
+    padding: 0;
+
+}
+.news li{
     display: block;
 }
-div.news-3 div.news-buttom{
-    margin-top: 20px;
+.news li:first-child{
+    display: block;
+    float: left;
+    width: 49%;
+    margin-right: 2%;
+    height: 500px;
 }
-div.news-2 div.news-buttom{
-    margin-top: 3px;
+.news li:nth-child(2), .news li:nth-child(3){
+    display: block;
+    width: 49%;
+    height: 235px;
+    float: left;
 }
-div.news-1 div.news-buttom{
-    margin-top: 23px;
+.news li:nth-child(2) .news-img, .news li:nth-child(3) .news-img{
+    float: left;
+    margin-right: 30px;
+}
+.news-text p{
+    margin: 0;
+    padding: 0;
+}
+.news li:nth-child(2){
+    margin-bottom: 15px;
 }
 .news-date img{
-    padding-right: 7px;
+    margin-right: 5px;
+    visibility: top;
+}
+.news-date time{
     vertical-align: top;
-} 
+}
