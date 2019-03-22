@@ -25,8 +25,8 @@ a{
 .logo
 {
     float: left;
-    width: 300px;
     margin: 15px 0;
+    margin-right: 90px;
 
 }
 nav
@@ -120,19 +120,21 @@ div.telephone a
 {
     float: left;
     margin: 50px 0;
+    margin-left: 25px;
 }
 .social-resources-footer
 {
     display: inline-block;
     text-align: center;
-    margin: 50px 0;
+    margin-top: 50px;
 
 
 }
 .telephone-footer
 {
     float: right;
-    margin: 50px 0;
+    margin-top: 50px;
+    margin-right: 25px;
 
 
 }
@@ -173,8 +175,9 @@ div.telephone-footer a:last-child
 .slider-container
 {
     background: url(/MyFirstRep/lesson-10-hw/img/Rectangle-2-copy1.jpg) no-repeat center center;
-    height: 608px;
+    height: 607px;
     position: relative;
+    overflow: hidden;
 }
 .slogan
 {
@@ -411,6 +414,8 @@ main
     padding: 0 5px;
     z-index: 2;
     height: 100%;
+    overflow: hidden;
+    padding-bottom: 250px;
 }
 .news-text{
     height: 100px;
@@ -419,6 +424,7 @@ main
 ul.news{
     margin: 0;
     padding: 0;
+    margin-bottom: 250px;
 
 }
 .news li{
@@ -455,3 +461,57 @@ ul.news{
 .news-date time{
     vertical-align: top;
 }
+/*------------------------------@MEDIA*/
+
+@media (max-width: 788px){
+    .logo{
+        margin-right: 30px;
+    }
+    nav ul li a{
+        margin-right: 20px;
+    }
+}
+@media (max-width: 786px){
+    .news li:first-child, .news li:nth-child(2) .news-img, .news li:nth-child(3) .news-img{
+        float: none;
+    }
+    .news li:nth-child(2), .news li:nth-child(3){
+        float: none;
+        height: 475px;
+    }
+    ul.news{
+        margin: 0 auto;
+        padding: 0;
+        max-width: 570px;
+    }
+    .news-container{
+        padding-bottom: 100px;
+    }
+    .news-title{
+        margin-top: 75px;
+    }
+    .news li:first-child{
+        width: 100%;
+    }
+}
+@media (max-width: 779px){
+    .logo, .description{
+        float: none;
+        margin-bottom: 20px;
+    }
+    .logo{
+        margin: 0 auto;
+        text-align: center;
+        padding-top: 20px;
+        width: 150px;
+
+    }
+    nav{
+        text-align: center;
+        margin-left: 170px;
+    }
+    .contacts-footer{
+        margin: 50px 0 50px 200px;
+    }
+}
+
