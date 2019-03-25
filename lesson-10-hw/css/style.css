@@ -120,7 +120,6 @@ div.telephone a
 {
     float: left;
     margin: 50px 0;
-    margin-left: 25px;
 }
 .social-resources-footer
 {
@@ -134,9 +133,6 @@ div.telephone a
 {
     float: right;
     margin-top: 50px;
-    margin-right: 25px;
-
-
 }
 .contacts-footer
 {
@@ -463,15 +459,42 @@ ul.news{
 }
 /*------------------------------@MEDIA*/
 
-@media (max-width: 788px){
+@media (max-width: 1150px){
     .logo{
         margin-right: 30px;
+        float: left;
+        margin-bottom: 0;
+        display: none;
+    }
+    .logo img{
+        width: 150px;
     }
     nav ul li a{
         margin-right: 20px;
     }
-}
-@media (max-width: 786px){
+    nav ul li:last-child a{
+        margin-right: 0;
+    }
+    .social-resources{
+        margin: 35px 20px 0 20px;
+        float: right;
+
+    }
+    .description {
+        float: right;
+        margin: 20px 20px;
+    }
+    .telephone{
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    nav{
+        float: left;
+        margin-left: 20px;
+    }
+    nav ul{
+        margin: 0 auto;
+    }
     .news li:first-child, .news li:nth-child(2) .news-img, .news li:nth-child(3) .news-img{
         float: none;
     }
@@ -479,6 +502,7 @@ ul.news{
         float: none;
         height: 475px;
     }
+
     ul.news{
         margin: 0 auto;
         padding: 0;
@@ -493,25 +517,26 @@ ul.news{
     .news li:first-child{
         width: 100%;
     }
+    .contacts-footer{
+        margin: 50px auto;
+        margin-left: 13%
+    }
+    .telephone-footer{
+        margin-right: 2%;
+    }
+    .logo-footer{
+        margin-left: 2%;
+    }
+  
 }
-@media (max-width: 779px){
-    .logo, .description{
-        float: none;
-        margin-bottom: 20px;
-    }
-    .logo{
-        margin: 0 auto;
-        text-align: center;
-        padding-top: 20px;
-        width: 150px;
-
-    }
-    nav{
-        text-align: center;
-        margin-left: 170px;
+@media (max-width: 734px){
+    .logo-footer{
+        display: none;
     }
     .contacts-footer{
-        margin: 50px 0 50px 200px;
+        margin-left: 2%;
+    }
+    .news-img a img{
+        width: 100%;
     }
 }
-

@@ -1,0 +1,37 @@
+.box
+{
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    justify-content: space-around;
+    height: 500px;
+    border: 2px solid red;
+    align-items: center;
+    align-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.box-item:nth-child(3){
+    align-self: flex-end;    
+}
+/*
+.box-item:nth-child(6){
+    flex-basis: 300px;
+}
+
+.box-item:nth-child(4){
+    order: 1;
+}
+*/
+
+.box-item{
+    height: 200px;
+    background-color: red;
+    text-align: center;
+    border: 1px solid black;
+    width: 200px;
+    
+
+}
+

@@ -21,14 +21,7 @@ ul
     margin: 0 auto;
 }
 /* ------Функциональные классы------ */
-.float-l
-{
-    float: left;
-}
-.float-r
-{
-    float: right;
-}
+
 .pos-rel
 {
     position: relative;
@@ -37,6 +30,11 @@ ul
 
 
 /* ------Header------ */
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
 
 .header-logo
 {
@@ -44,15 +42,14 @@ ul
 }
 .header-address
 {
-    width: 310px;
     padding-left: 30px;
     margin-top: 24px;
     box-sizing: border-box;
 }
 .header-address::after
 {
-content: '';
 width: 20px;
+content: '';
 height: 25px;
 background: url(./img/map-marker-alt.png) no-repeat center center;
 position: absolute;
@@ -62,7 +59,6 @@ top: 0;
 }
 .header-contact
 {
-    width: 335px;
     margin-top: 24px;
 
 }
@@ -120,15 +116,8 @@ top: 0;
 {
     padding: 15px 0;
 }
-.header-top::after
-{
-    content: '';
-    display: block;
-    clear: both;
-}
 .header-price
 {
-    width: 225px;
     margin-top: 24px;
 
 
@@ -184,6 +173,10 @@ border-top: 1px solid #cbcccd;
 {
     padding: 7px 0 7px;
 }
+.header-bottom-search form
+{
+    display: flex;
+}
 .header-bottom-search form::after
 {
     content: '';
@@ -213,3 +206,9 @@ border-top: 1px solid #cbcccd;
 }
 
 
+@media (max-width: 948px){
+    .header-price{
+        margin: 0 auto;
+    }
+
+}
