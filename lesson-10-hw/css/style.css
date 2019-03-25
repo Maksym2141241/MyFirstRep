@@ -536,7 +536,36 @@ ul.news{
     .contacts-footer{
         margin-left: 2%;
     }
-    .news-img a img{
+    ul.news li:first-child .news-img a img{
         width: 100%;
     }
 }
+@media (max-width: 453px){
+    .slider-container{
+        display: none;
+    }
+    nav ul{
+       display: inline-grid;    
+      
+    }
+    nav ul li{
+    margin-bottom: 10px;
+    border-bottom: 1px solid #282828;
+    padding-bottom: 2px;
+    }
+    .menu{
+        width: 50%;
+    }
+}
+@media (max-width: 300px){
+    .menu{
+        width: 230px;
+    }
+    .description, .social-resources, .telephone-footer{
+        float: left;
+    }
+    .telephone-footer{
+        margin: 0 0 20px 50px;        
+    }
+}
+
